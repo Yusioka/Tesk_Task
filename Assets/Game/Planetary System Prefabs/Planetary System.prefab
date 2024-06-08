@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6699163648047401782
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3503333835205030553}
+  - component: {fileID: 7671255478590432964}
+  m_Layer: 0
+  m_Name: Planetary System
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &3503333835205030553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6699163648047401782}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7671255478590432964
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6699163648047401782}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93816d5746f2f2049a4b9c27aee90027, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _planetsData:
+  - {fileID: 11400000, guid: 6566ff301145c644291d29f22ea5fcd3, type: 2}
+  - {fileID: 11400000, guid: f88894d60ba5f124db3de89d0719a8c6, type: 2}
+  - {fileID: 11400000, guid: 830fc5ba4e9b91b47b003ed9e4073dca, type: 2}
+  - {fileID: 11400000, guid: 2f1c8590f6ff1f84cbb8acc2c73957e4, type: 2}
+  - {fileID: 11400000, guid: 08f96fd3b0fd259488d1f78148c43a09, type: 2}
+  - {fileID: 11400000, guid: 340f6207a16a8904bb93f97cd87ab575, type: 2}
+  - {fileID: 11400000, guid: 2c2bab9c60ee7254d865f5347a7fac43, type: 2}
+  _planetPrefab: {fileID: 2324846768359111055, guid: 888c65168eaad2c4bab83d0efd1a40d2, type: 3}
