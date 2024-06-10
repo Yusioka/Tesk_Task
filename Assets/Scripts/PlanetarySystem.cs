@@ -10,7 +10,7 @@ public class PlanetarySystem : MonoBehaviour, IPlanetarySystem
     private List<PlanetaryObject> _planetaryObjects = new List<PlanetaryObject>();
 
     public IEnumerable<IPlanetaryObject> PlanetaryObjects { get => _planetaryObjects; }
-    public List<PlanetData> PlanetsData { get => _planetsData; }
+    public IEnumerable<PlanetData> PlanetsData { get => _planetsData; }
     public double CurrentSystemMass { get; set; }
 
     public void UpdateSystem(float deltaTime)

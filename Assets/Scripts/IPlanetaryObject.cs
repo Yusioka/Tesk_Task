@@ -1,5 +1,3 @@
-using UnityEngine;
-
 public interface IPlanetaryObject
 {
     MassClassEnum MassClassEnum { get; }
